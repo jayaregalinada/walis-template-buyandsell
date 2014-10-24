@@ -1,8 +1,8 @@
-<?php namespace Walisph\WalisTemplateBuyandsell;
+<?php namespace Walisph\TemplateBuyandsell;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
-class WalisTemplateBuyandsellServiceProvider extends ServiceProvider {
+class ServiceProvider extends IlluminateServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
