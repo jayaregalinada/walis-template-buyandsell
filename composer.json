@@ -1,0 +1,20 @@
+{
+    "name": "walisph/walis-template-buyandsell",
+    "description": "Buy and Sell Walis Apps template",
+    "authors": [
+        {
+            "name": "Walis Philippines",
+            "email": "info@walis.com.ph"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Walisph\\WalisTemplateBuyandsell": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
