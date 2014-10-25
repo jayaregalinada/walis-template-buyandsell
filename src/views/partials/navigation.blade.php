@@ -1,5 +1,5 @@
 <nav class="_widget _widget_navigation" data-widget-name="navigation">
-    <div class="_widget_container container-fluid _widget_container_padding clearfix">
+    <div class="_widget_container container-fluid clearfix">
         @foreach( \Config::get('walis-t-buyandsell::template.navigations') as $key => $value )
         <div class="text-center col-xs-6 col-md-3 nav_1" data-nav="{{ $value }}">
             @if( $navigation === $value )

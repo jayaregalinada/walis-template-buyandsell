@@ -1,4 +1,4 @@
-<header class="_widget _widget_text top-phone">
+<header class="_widget _widget_top top-phone">
     <div class="container text-right">
         <p><i class="fa fa-phone"></i>
             {{ \Config::get('app.contact') }} -

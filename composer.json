@@ -1,6 +1,7 @@
 {
     "name": "walisph/walis-template-buyandsell",
     "description": "Buy and Sell Walis Apps template",
+    "license": "MIT",
     "authors": [
         {
             "name": "Walis Philippines",
@@ -13,7 +14,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Walisph\\TemplateBuyandsell": "src/"
+            "Walisph\\WalisTemplateBuyandsell": "src/"
         }
     },
     "minimum-stability": "stable"
